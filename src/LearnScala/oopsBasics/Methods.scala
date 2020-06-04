@@ -46,6 +46,6 @@ object Methods extends App{
   println((himanshu + "the Software Developer").apply())
   println((+himanshu).salary)
   println(himanshu code)
-  println(himanshu(3))
+  println(himanshu(3)) // val can be used as a function
 
 }

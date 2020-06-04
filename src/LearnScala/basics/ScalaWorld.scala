@@ -11,7 +11,7 @@ object ScalaWorld extends App {
     println("by name: " + x)  // same as  x-> System.nanoTime()
   }
 
-  calledByValue(1234567891234L)
+  calledByValue(12345678912345L)
   calledByName(System.nanoTime())
 
   def infiniteFunction(): Int = 1 + infiniteFunction()
