@@ -12,6 +12,6 @@ object packageImport extends App {
   // Date import
   val date = new Date()
   val calenderDate = Calendar.getInstance().getTime
-  println(calenderDate);
+  println(calenderDate)
 
  }
